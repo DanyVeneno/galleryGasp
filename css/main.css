@@ -1,5 +1,5 @@
 /* USER VARIABLES SECTION */
-
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap");
 :root {
   --accent: #dcf581;
   --text: #333;
@@ -30,7 +30,7 @@
 
 /* FONTS LOAD SECTION */
 
-@font-face {
+/*@font-face {
   src: url("../fonts/roboto-regular-webfont.woff2") format("woff2");
   font-family: "roboto-st";
   font-weight: 400;
@@ -59,7 +59,7 @@
   font-family: "assassin-st";
   font-weight: 700;
   font-style: italic;
-}
+}*/
 
 /* GENERAL CSS SETTINGS */
 
@@ -84,8 +84,9 @@ textarea:required:valid {
 }
 
 body {
-  font-family: var(--userfont);
-  font-size: var(--regular-text);
+  font-family: "Rubik Pixels", cursive;
+  /*font-family: var(--userfont);
+  font-size: var(--regular-text);*/
   line-height: var(--lineheight);
   color: var(--text);
   min-width: 320px;
@@ -162,12 +163,13 @@ html {
   width: 100%;
   z-index: 1;
   top: 40px;
-  font-family: assassin-st, sans-serif;
+  font-family: "Rubik Pixels", cursive;
   font-size: 32px;
   color: rgba(255, 255, 255, 0.75);
 }
 .showcase__header span {
   color: var(--accent);
+  font-family: "Rubik Pixels", cursive;
 }
 .showcase-carousel .swiper-wrapper {
   transition: var(--transition);
@@ -193,7 +195,7 @@ html {
   position: absolute;
   bottom: -85px;
   width: 100%;
-  font-family: assassin-st, sans-serif;
+  font-family: "Rubik Pixels", cursive;
   font-size: 32px;
   color: rgba(255, 255, 255, 0.5);
   text-shadow: rgb(223, 247, 136) 0 0 10px;
@@ -259,7 +261,7 @@ html {
 }
 .showcase-navigation > *::before {
   content: "?";
-  font-family: assassin-st;
+  font-family: "Rubik Pixels", cursive;
   opacity: 0;
   transition: opacity 0.75s ease-out;
   position: absolute;
